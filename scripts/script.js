@@ -39,6 +39,7 @@ $( document ).ready(function() {
                 resultImage.fadeIn();
                 AssignDaedra(userName);
                 resetButton.fadeIn();
+                break;
             default:
                 alert(clickCount);
         }
