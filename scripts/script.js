@@ -41,7 +41,7 @@ $( document ).ready(function() {
                 resetButton.fadeIn();
                 break;
             default:
-                alert(clickCount);
+                console.log("button-clicked")
         }
     })
 
